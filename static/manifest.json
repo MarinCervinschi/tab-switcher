@@ -4,6 +4,12 @@
 	"version": "0.1.0",
 	"description": "Ctrl+Tab in most-recently-used order, with a list of your tabs while you hold Ctrl.",
 	"minimum_chrome_version": "121",
+	"icons": {
+		"16": "icons/icon-16.png",
+		"32": "icons/icon-32.png",
+		"48": "icons/icon-48.png",
+		"128": "icons/icon-128.png"
+	},
 	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3q/3Q8R8VpCQpo3K26PngB3l/y83O1vvfIB6PNqbdc961kNyJI8cDqbIAj01IJCfEExOf5hIa5vXMAPNINAA9QYpqFH9sA+UcbZXCs2KVVQds8ZPW6aVFf+QTp1n4GoExjH3WrCQqcox7PByzwl0qchgEYFOUIBL1w6v5PGINv/7ZrU74KntAgdhvWdo+xoakm/OldS3F5fOygia5xQWbq5OVpgNLP7wDoRP/j65tDxAVlpH8/eUQz+Zo2LwOu1+aXI5Y7xiY4L9YeZuGzENluvTR1nHCaT1auxH/yKlf2wAfiHVrjjb/lUGW7GDuKglWuGA1qFtQU3dslK2wuySGwIDAQAB",
 	"background": {
 		"service_worker": "background.js"
