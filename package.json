@@ -5,6 +5,10 @@
 	"description": "Ctrl+Tab in most-recently-used order for Chrome, with a list of your tabs while you hold Ctrl",
 	"author": "Marin Cervinschi",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarinCervinschi/tab-switcher.git"
+	},
 	"type": "module",
 	"packageManager": "pnpm@12.2.1",
 	"engines": {
