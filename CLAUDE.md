@@ -12,6 +12,7 @@ CHANGELOG.md          what changes for whoever uses the extension
 static/manifest.json  copied into dist/ as is; its `key` fixes the extension id
 static/icons/         the icon's PNGs, rendered from assets/icon.svg by `pnpm icons` and committed
 assets/icon.svg       the icon's source: the switcher in miniature, in the list's colours
+assets/demo.gif       the README's demo, recorded in Chrome for Testing with public sites only
 scripts/build.mjs     esbuild: src/background.ts and src/content.ts into dist/ as classic scripts
 src/background.ts     the service worker: the MRU order, the commands, the switch, the frame relay
 src/content.ts        every frame tracks Control; the top frame runs the gesture and the list
