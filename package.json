@@ -1,0 +1,25 @@
+{
+	"name": "tab-switcher",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Ctrl+Tab in most-recently-used order for Chrome, with a list of your tabs while you hold Ctrl",
+	"author": "Marin Cervinschi",
+	"license": "MIT",
+	"type": "module",
+	"packageManager": "pnpm@12.2.1",
+	"scripts": {
+		"build": "node scripts/build.mjs",
+		"dev": "node scripts/build.mjs --watch",
+		"typecheck": "tsc --noEmit",
+		"test": "vitest run",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@resvg/resvg-js": "^2.6.2",
+		"@types/chrome": "^0.3.7",
+		"esbuild": "^0.28.2",
+		"prettier": "^3.10.0",
+		"typescript": "^7.0.2",
+		"vitest": "^5.1.0"
+	}
+}

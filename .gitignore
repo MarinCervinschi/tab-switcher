@@ -1,0 +1,8 @@
+node_modules/
+dist/
+
+# The public scan's private deny list, when it is not given through CLAUDE_KIT_DENYLIST
+scripts/denylist.local
+
+# Machine notes for Claude Code, one per checkout
+CLAUDE.local.md
